@@ -4,19 +4,19 @@ declare(strict_types=1);
 
 namespace Src\Folder;
 
-require_once '../autoloader.php';
+require_once '../vendor/autoload.php';
 
 
 $context = new SortClass(new AscendingClass);
 echo "Client: SortClass is set to normal sorting.\n";
-$context->doSomeBusinessLogic();
+$context->sorting_array();
 
 echo "\n";
 echo "<hr>";
 
 echo "Client: SortClass is set to reverse sorting.\n";
-$context->setStrategy(new DescendingClass);
-$context->doSomeBusinessLogic();
+$context->setmethod(new DescendingClass);
+$context->sorting_array();
 
 
 

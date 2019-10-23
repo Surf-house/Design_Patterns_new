@@ -4,14 +4,7 @@ Default Project
 This is a default structure for PHP projects. With this template you can speed up the process of creating of new:
 open-source, proprietary, test, demo and etc. projects!
 
-This template has basic configuration for [PHPUnit](https://github.com/sebastianbergmann/phpunit) and
-[PHP-CS-Fixer](https://github.com/friendsofphp/php-cs-fixer) libraries, configured `composer.json`
-with PSR-4 namespaces for source code and tests, `.gitignore` with basic files and directories to exclude them from Git, changelog file
-and README with cool  badges :)
 
-[![Packagist](https://img.shields.io/packagist/v/greeflas/default-project.svg)](CHANGELOG.md)
-[![Packagist](https://img.shields.io/packagist/dt/greeflas/default-project.svg)](https://packagist.org/packages/greeflas/default-project)
-![Custom badge](https://img.shields.io/badge/greeflas-default--project-red.svg)
 
 Installation
 ------------
@@ -19,7 +12,7 @@ Installation
 For creating new project based on this template just execute the following command
 
 ```bash
-$ composer create-project greeflas/default-project project-name
+$ composer create-project My_Desigh_Patterns1 project-name
 ```
 
 > NOTE: You can add `--no-dev` right after `create-project` flag if you don't want to install dev dependencies to your project
@@ -78,7 +71,7 @@ $ composer tests
 License
 -------
 
-[![license](https://img.shields.io/github/license/greeflas/default-project.svg)](LICENSE)
+
 
 This project is released under the terms of the BSD-3-Clause [license](LICENSE).
 
